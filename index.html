@@ -4,88 +4,133 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Julia Loyst is a front-end developer based in Detroit, Michigan, check out her projects and contact her for job inquiries"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/b8122695a9.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>J. Loyst Portfolio</title>
   </head>
- 
+
   <body>
-      <nav class="navbar navbar-expand-lg bg-light fixed-top">
-          <div class="container">
-            <ul class="nav justify-content-left">
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" title="Homepage">Julia Loyst</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                 <img class="img-responsive fluid" src="images/JL-2.png" height="60px"/>
-                </li>
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
               <li class="nav-item">
-                  <a href="index.html" class="nav-link">Home</a>
-                </li>
+                <a href="about.html" class="nav-link">About Me</a>
+              </li>
               <li class="nav-item">
-                <a href="about.html" class="nav-link">About</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a href="about.html#contact-me" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
-        </nav>
-      </br>
-
-    <h2>
-      👩🏼‍💻Hi, I'm
-    </h2>
-    <h1>
-      Julia Loyst
-    </h1>
-    <h3>
-      Front-End developer, based in Detroit, Michigan 🇺🇸
-    </h3>
-
-    <div class="nav-links">
-      <a href="about.html#contact-me" class="contact">Contact Me</a>
-      <a href="about.html" class="about">About</a>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-<img src="images/Weather.png" class="img-fluid rounded"/>
         </div>
-        <div class="col-6">
-            <h2 class="mb-3">JS Vanilla Weather App</h2>
-            <p>
-              Fully functional weather application using OpenWeather API.
-            </p>
-            <div class="mt-5">
-              <a href="https://jsvanillaweatherapp.netlify.app" class="primary-link" target="_blank">Launch Weather App</a>
-            </div>
-          </div>
-      </div>
+      </nav>
+    </header>
+    <div class="hero">
+      <img src="/images/avatar.png" class="avatar" />
+      <h1>
+        Julia Loyst
+      </h1>
+      <h3>
+        Detroit based front-end developer
+      </h3>
+    <div class="spacer">
+          <a href="about.html#contact-me" class="btn btn-branding">Contact Me</a>
     </div>
-  </br>
-</br>
+    </div>
 
-    <div class="container">
-        <div class="row">
-          <div class="col-6">
-              <h2 class="mb-3">Twitch GTA RP App</h2>
-              <p>
-                Site featuring multple pages of Twitch streamers who work together under the same GTA Roleplay server NoPixel.
+      <section class="experience">
+        <h2 class="mt-5">
+          Skills
+        </h2>
+        <p class="mt-4">
+          Detroit based developer looking to collaborate and work, continuing to
+          enhance my skills.
+        </p>
+      </section>
+      
+
+      <section class="skills">
+        <div class="container">
+          <div class="row p-4 skills-row">
+            <div class="col-sm-12">
+              <h3 class="p-md-3 mt-2">Languages &amp; Frameworks</h3>
+              <p class="p-md-3">
+                HTML, CSS, JavaScript, React, API, Bootstrap, Node.js, Hosting,
+                Flexbox, SEO, Responsive
               </p>
-              <div class="mt-5">
-                <a href="https://cgallviews.netlify.app" class="primary-link" target="_blank">Launch GTA RP App</a>
+              <div
+                class="skills-icon1 pb-3 pt-2 px-2 d-flex justify-content-around"
+              >
+                <i class="fab fa-html5 fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-css3-alt fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-js fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-react fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-bootstrap fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-node-js fa-3x" aria-hidden="true"></i>
               </div>
             </div>
-            <div class="col-6">
-                <img src="images/CGTwitch.png" class="img-fluid rounded"/>
-                        </div>
+            <div class="col-sm-12 mt-5">
+              <h3 class="p-md-3 mt-2">Tools &amp; Design</h3>
+              <p class="p-md-3">
+                Visual Code Studio, GitHub, CodeSandbox, CodePen, Netlify,
+                Figma, inVision
+              </p>
+              <div
+                class="skills-icon1 pb-3 pt-2 px-2 d-flex justify-content-around"
+              >
+                <i class="fab fa-github-square fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-codepen fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-figma fa-3x" aria-hidden="true"></i>
+                <i class="fab fa-invision fa-3x" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <div class="nav-links">
+        <a href="about.html" class="about">About Me</a>
       </div>
+    </div>
   </body>
 </html>
