@@ -4,7 +4,7 @@
   --secondary-color: #a8d0db;
   --tertiary-color: #7180ac;
   --accent-color: #e49273;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.3);
 }
 body {
   margin: 60px auto;
@@ -15,11 +15,13 @@ body {
 p {
   display: block;
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+}
+.text-holder {
   background: var(--secondary-color);
+  text-align: center;
 }
 .about-paragraphs {
   display: flex;
@@ -44,7 +46,7 @@ h3 {
 }
 .nav-links a {
   margin: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px;
   box-shadow: var(--box-shadow);
 }
@@ -67,6 +69,13 @@ h3 {
   text-decoration: none;
   color: var(--tertiary-color);
 }
+.primary-link {
+  text-decoration: none;
+  background: #a8d0db;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
 #homepage {
   display: flex;
   justify-content: center;
@@ -76,4 +85,16 @@ h3 {
 }
 a:any-link {
   cursor: auto;
+}
+a:hover {
+  color: #e49273;
+}
+.nav-link {
+  color: #7180ac;
+}
+.nav-link:hover {
+  color: #e49273;
+}
+span {
+  font-weight: 700;
 }
