@@ -1,5 +1,5 @@
 :root {
-  --branding-font: "Rubik";
+  --branding-font: "Rubik", sans-serif;
   --primary-color: #0b3c49;
   --secondary-color: #f18f01;
   --tertiary-color: #797a9e;
