@@ -7,8 +7,6 @@
   --box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.3);
 }
 body {
-  margin: 0 auto;
-  max-width: 800px;
   font-family: var(--branding-font);
   background-color: #cbd2d0;
 }
@@ -57,9 +55,6 @@ section {
   color: var(--secondary-color);
   padding: 80px 20px;
   text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
 }
 .navbar {
   background: #cbd2d0;
