@@ -20,13 +20,10 @@ p {
 .text-holder {
   background: var(--secondary-color);
   text-align: center;
+  padding: 20px;
 }
 .about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-.about-paragraphs p {
-  margin: 10px;
+  padding: 80px;
 }
 h1,
 h2,
@@ -85,6 +82,10 @@ section {
   color: var(--secondary-color);
   text-decoration: none;
   text-transform: capitalize;
+  background-color: white;
+  border: 2px solid #0b3c49;
+  color: #0b3c49;
+  box-shadow: var(--box-shadow);
 }
 .email {
   text-align: center;
@@ -149,11 +150,6 @@ span {
 }
 h3 .p-md-3 {
   color: #fe9d0b;
-}
-.about {
-  background-color: white;
-  border: 2px solid #0b3c49;
-  color: #0b3c49;
 }
 i {
   color: #0b3c49;
