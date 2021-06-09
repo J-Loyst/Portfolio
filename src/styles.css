@@ -150,7 +150,7 @@ h3 .p-md-3 {
 i {
   color: #0b3c49;
 }
-.col-md-6 {
+.col-md-8 {
   font-size: 13px;
   color: #0b3c49;
   background: white;
@@ -160,7 +160,7 @@ i {
   box-shadow: var(--box-shadow);
   border-radius: 40px;
 }
-.col-md-6 a {
+.col-md-8 a {
   text-decoration: none;
   background: var(--secondary-color);
   color: #f5f3f5;
@@ -171,4 +171,9 @@ span.nameHeading {
   font-size: 20px;
   padding: 10px;
   color: #0b3c49;
+}
+@media only screen and (max-width: 480px) {
+  .img-fluid {
+    max-width: 25%;
+  }
 }
