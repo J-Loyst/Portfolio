@@ -17,13 +17,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-.text-holder {
-  background: white;
-  text-align: center;
-  padding: 20px;
-  border: 3px solid #fe9d0b;
-  box-shadow: var(--box-shadow);
-}
 .about-paragraphs {
   padding: 80px;
 }
@@ -156,12 +149,28 @@ h3 .p-md-3 {
 i {
   color: #0b3c49;
 }
-p.text-holder {
-  font-size: 16px;
+.col-md-6 {
+  font-size: 13px;
   color: #0b3c49;
+  background: white;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid #fe9d0b;
+  box-shadow: var(--box-shadow);
+  border-radius: 40px;
+}
+.col-md-6 a {
+  text-decoration: none;
+  background: var(--secondary-color);
+  color: #f5f3f5;
+  padding: 10px;
+  border-radius: 10px;
 }
 span.nameHeading {
   font-size: 20px;
   padding: 10px;
   color: #0b3c49;
+}
+p.text-holder {
+  font-size: 2vw;
 }
