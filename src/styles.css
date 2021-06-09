@@ -18,9 +18,11 @@ p {
   line-height: 1.5;
 }
 .text-holder {
-  background: var(--secondary-color);
+  background: white;
   text-align: center;
   padding: 20px;
+  border: 3px solid #fe9d0b;
+  box-shadow: var(--box-shadow);
 }
 .about-paragraphs {
   padding: 80px;
@@ -152,5 +154,14 @@ h3 .p-md-3 {
   color: #fe9d0b;
 }
 i {
+  color: #0b3c49;
+}
+p.text-holder {
+  font-size: 16px;
+  color: #0b3c49;
+}
+span.nameHeading {
+  font-size: 20px;
+  padding: 10px;
   color: #0b3c49;
 }
