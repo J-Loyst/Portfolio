@@ -57,6 +57,7 @@ section {
   color: var(--secondary-color);
 }
 .nav-links {
+  font-size: 18;
   display: flex;
   justify-content: center;
   margin-top: 40px;
