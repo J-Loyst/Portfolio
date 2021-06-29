@@ -141,8 +141,9 @@ span {
 }
 .hero a {
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
+  border: 2px solid #0b3c49;
   background-color: #cbd2d0;
 }
 h3 .p-md-3 {
