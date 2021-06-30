@@ -35,6 +35,10 @@ h3 {
 section {
   background-color: #cbd2d0;
 }
+footer {
+text-align: center;
+font-size: xx-large;
+}
 .avatar {
   border-radius: 200px;
   width: 100px;
